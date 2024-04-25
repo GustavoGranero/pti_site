@@ -198,11 +198,11 @@
 
 .sidebar li.profile {
   position: fixed;
-  height: 60px;
+  height: 65px;
   width: 78px;
   left: 0;
   bottom: -8px;
-  padding: 10px 14px;
+  padding: 10px 8px;
   background: #1d1b31;
   transition: all 0.5s ease;
   overflow: hidden;
@@ -218,13 +218,9 @@
   flex-wrap: nowrap;
 }
 
-.sidebar li img {
-  height: 45px;
-  width: 45px;
-  -o-object-fit: cover;
-     object-fit: cover;
-  border-radius: 6px;
-  margin-right: 10px;
+.bx.user-avatar {
+  font-size: 28pt;
+  color: #a8a8a8;
 }
 
 .sidebar li.profile .name,
